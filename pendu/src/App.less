@@ -2,12 +2,13 @@
 body{
 	font-family: "Segoe UI", sans-serif;
 	color: #000;
+	text-align: center;
 }
 
 h1{text-align: center}
 
 h1, input, button{
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .pendu {
@@ -16,7 +17,7 @@ h1, input, button{
 	justify-content: center;
 	.word{
 		width: 100%;
-		font: 400 50px/100px 'Segoe UI',sans-serif;
+		font: 400 30px/60px 'Segoe UI', sans-serif;
 		text-align: center;
 	}
 	.content {
@@ -26,10 +27,15 @@ h1, input, button{
 		.word{
 			letter-spacing: 10px;
 		}
-		.form {
-			display: flex;
-			flex-flow: column wrap;
+	}
+	.display {margin-bottom: 10px;}
+	form {
+		display: flex;
+		flex-flow: column wrap;
+		> * {
+			margin-bottom: 10px;
 		}
+		label > input {margin-left: 10px}
 	}
 }
 

@@ -3,11 +3,13 @@ body {
   color: #000;
   text-align: center;
 }
-
+h1 {
+  text-align: center;
+}
 h1,
 input,
 button {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .pendu {
   display: flex;
@@ -16,7 +18,7 @@ button {
 }
 .pendu .word {
   width: 100%;
-  font: 400 50px/100px 'Segoe UI', sans-serif;
+  font: 400 30px/60px 'Segoe UI', sans-serif;
   text-align: center;
 }
 .pendu .content {
@@ -27,9 +29,18 @@ button {
 .pendu .content .word {
   letter-spacing: 10px;
 }
-.pendu .content .form {
+.pendu .display {
+  margin-bottom: 10px;
+}
+.pendu form {
   display: flex;
   flex-flow: column wrap;
+}
+.pendu form > * {
+  margin-bottom: 10px;
+}
+.pendu form label > input {
+  margin-left: 10px;
 }
 /*
 .App-logo {

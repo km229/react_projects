@@ -16,7 +16,7 @@ class Letter extends Component {
     }
 
     render() {
-        let {letter, status, index, onClick} = this.props;
+        let {letter, status, onClick} = this.props;
         return (
             <div className={`letter ${status}`} onClick={() => onClick(letter)}>
                 <span className="symbol">
