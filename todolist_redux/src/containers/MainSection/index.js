@@ -11,7 +11,7 @@ const mapStateToProps = (state) => ({
 })
 
 const mapDispatchToProps = (dispatch) => ({
-	actions: bindActionCreators(dispatch, TodoActions),
+	actions: bindActionCreators(TodoActions, dispatch),
 })
 
 export default connect(
