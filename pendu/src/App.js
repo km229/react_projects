@@ -32,7 +32,7 @@ class App extends Component {
                     step: step + 1
                 })
             }
-            // TODO Fix for update problems
+            // Fix for update problems
             if (step+1 === 10) {
                 this.setState({gameState: 'perdu'})
             } else if (!this.computeDisplay([...checkedLetters, letter]).includes('_')) {
@@ -72,14 +72,6 @@ class App extends Component {
         this.setState({
             gameState: 'play'
         })
-    }
-
-    componentWillReceiveProps(nextProps, nextContext) {
-        if (nextProps.state.step === 10) {
-            this.setState({gameState: 'perdu'})
-        } else if (!nextContext.computeDisplay().includes('_')) {
-            this.setState({gameState: 'gagné'})
-        }
     }
 
     // Arrow fx for binding
