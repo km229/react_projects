@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/km229/react_projects#readme",
   "dependencies": {
-    "create-react-app": "^4.0.0"
+    "create-react-app": "^4.0.1",
+    "todomvc-app-css": "^2.3.0"
   }
 }
