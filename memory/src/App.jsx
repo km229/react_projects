@@ -1,9 +1,9 @@
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import shuffle from 'lodash.shuffle'
 
 import './App.css'
 
-import HallOfFame, { FAKE_HOF } from './components/HallOfFame'
+import HallOfFame, {FAKE_HOF} from './components/HallOfFame'
 import Card from './components/Card'
 import GuessCount from './components/GuessCount'
 

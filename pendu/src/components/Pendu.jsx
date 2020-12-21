@@ -1,5 +1,4 @@
-
-import React, { Component } from 'react'
+import React, {Component} from 'react'
 import Canvas from "./Canvas";
 
 class Pendu extends Component {

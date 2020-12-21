@@ -9,7 +9,7 @@ import chai from 'chai'
 import dirtyChai from 'dirty-chai'
 import createChaiJestDiff from 'chai-jest-diff'
 
-import { configure as configureEnzyme } from 'enzyme'
+import {configure as configureEnzyme} from 'enzyme'
 import createChaiEnzyme from 'chai-enzyme'
 
 import chaiJestSnapshot from 'chai-jest-snapshot'
