@@ -1,0 +1,34 @@
+
+.main {
+  position: relative;
+  .loading {
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      background: #0000007d;
+      opacity: 0.1;
+    }
+    img {
+      width: 50px;
+      animation: 2s rotate360 infinite linear;
+    }
+    span {
+      text-align: center;
+    }
+  }
+}
+
+@keyframes rotate360 {
+  to { transform: rotate(360deg); }
+}

@@ -1,6 +1,6 @@
 import * as types from '../constants/TodoActionTypes'
 
-import todos from './todos'
+import todos from './todoList'
 
 describe('todos reducer', () => {
 	it('should handle initial state', () => {
