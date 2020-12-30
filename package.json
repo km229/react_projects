@@ -22,6 +22,7 @@
   "homepage": "https://github.com/km229/react_projects#readme",
   "dependencies": {
     "create-react-app": "^4.0.1",
+    "expo-cli": "^4.0.16",
     "todomvc-app-css": "^2.3.0"
   }
 }
